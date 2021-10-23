@@ -14,8 +14,8 @@ int _tmain()
     DWORD nHigh = 0;
     DWORD szMsg = 32767;
     HANDLE hMapFile = INVALID_HANDLE_VALUE;
-	LPVOID memory;
-	cout << "Enter shared memory name: ";
+    LPVOID memory;
+    cout << "Enter shared memory name: ";
     cin >>  lpName;
     std::cout<<"\n";
 
