@@ -1,0 +1,83 @@
+Enter shared memory name: communication
+
+Please choose an action to do:
+
+1. Read message from shared memory;
+2. Write message to shared memory;
+3. Quit.
+
+2
+Enter the message: Hello!
+
+Please choose an action to do:
+
+1. Read message from shared memory;
+2. Write message to shared memory;
+3. Quit.
+
+1
+Message from shared memory: Hello!
+
+
+Please choose an action to do:
+
+1. Read message from shared memory;
+2. Write message to shared memory;
+3. Quit.
+
+3
+Uncorrect number
+
+
+Process returned 0 (0x0)   execution time : 30.440 s
+Press any key to continue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
