@@ -42,7 +42,7 @@ int _tmain()
 		do
 		{
 		    std::cout<<"\nPlease choose an action to do:\n\n"<<"1. Read message from shared memory;\n"<<"2. Write message to shared memory;\n"<<"3. Quit.\n\n";
-            std::cin>>nfact;
+            	    std::cin>>nfact;
 
 			if (nfact == 1)
 			{
@@ -52,12 +52,12 @@ int _tmain()
 			else if (nfact == 2)
 			{
 				{
-                    auto message = reinterpret_cast<char*>(memory);
-                    cout << "Enter the message: ";
-                    char input[128];
-                    cin >> input;
-                    strcpy(message, input);
-                }
+                                  auto message = reinterpret_cast<char*>(memory);
+                                  cout << "Enter the message: ";
+                                  char input[128];
+                                  cin >> input;
+                                  strcpy(message, input);
+                                 }
 			}
 			else if (nfact == 3)
 			{
